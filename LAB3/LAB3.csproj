@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>C:\Users\viron\source\repos\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Lab2">
+      <HintPath>..\..\Lab2\Lab2\bin\Debug\netcoreapp2.1\Lab2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
